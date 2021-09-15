@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>封鎖された家庭科室からの脱出 │ Project N</title>
+  <title>爆発寸前の学校から逃げ切れ！！！ │ Project N</title>
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -17,13 +17,13 @@
   </svg>
   <header class="header">
     <div class="container">
-      <div class="header__logo"><img src="assets/images/logo.svg" alt="チームロゴ"></div>
+      <div class="header__logo"><img src="assets/images/kokokoro.jpg" alt="チームロゴ"></div>
       <div class="header__name">N・S高生制作サイト</div>
     </div>
   </header>
   <main class="main main-page">
     <!-- タイトルエリア　ここから -->
-    <h1 class="main-title"><img src="assets/images/main-image.png" alt="封鎖された家庭科室からの脱出"></h1>
+    <h1 class="main-title"><img src="assets/images/title.png" alt="爆発寸前の学校から逃げ切れ！！！"></h1>
     <!-- タイトルエリア　ここまで -->
     <div id="stage">
 
@@ -34,13 +34,17 @@
         <section class="section">
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>さぁゲームを始めよう！</h2>
-            <p class="text-center">まずは、この学校の家庭科室の鍵のありかを知らなければ入ることができない。<br>
-              下の画像の謎を解き、鍵のありかをキーワード欄に入力しよう。</p>
+            <p class="text-center">真っ暗な密室に閉じ込められていたキミ。「デデーン」パソコンの起動音が聞こえた。<br>
+            あたりを見るとそこには、一台のパソコンが置いてあった。<br>
+            動したパソコンの画面には、「この密室から出るためにはパスワードが必要」と書かれていた。<br>
+            キミはパスワード知らないので「パスワードを忘れた方はこちら」をクリックした。<br>
+            「パスワードを知るには、謎をとく必要があります。」（siriの声）<br>
+            画面に謎が表示された。</p>
             <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
   
             <div class="container">
               <figure class="image__container">
-                <img src="assets/images/スクリーンショット 2021-09-13 11.18.29.png" alt="">
+                <img src="assets/images/nazo1.png" alt="">
               </figure>
                 
  <!--  YouTube貼り付け
@@ -48,7 +52,7 @@
                 <div class="youtube">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/IRyJe-0Uie0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-              </div>                                       
+              </div>
 Youtube貼り付けここまで -->
                 
             </div>
@@ -85,9 +89,17 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：１  クリア！</div>
-              <div class="clear-message__content">家庭科室の扉が開いた！<br>
-                さぁ先生を助けるため<br>
-                ３つステージの謎をとき、暗号を見つけ出そう！</div>
+              <div class="clear-message__content">扉の鍵が開いた<br>
+                目の前の黒板に<br>
+                「脱出したければ、パソコンをもち職員室へいけ」<br>
+                と書かれていた<br>
+                「ピンポーンパンポーン<br>
+                今教室に残っている人に連絡です。<br>
+                50分後この学校は爆発します。<br>
+                繰り返します。今教室に残っている方へ連絡です。パソコンをお忘れなく。」<br>
+                とアナウンスがあった。<br>
+                パソコンの画面上に校内図が表示されて、職員室と思われる場所に印が浮かび上がったので職員室へ向かう。</p>
+              </div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -107,9 +119,11 @@ Youtube貼り付けここまで -->
           <div class="section">
             <div class="container">
               <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>黒板に書かれている謎を解け！</h2>
-              <p class="text-center">家庭科室に入ることができた！<br>
-                すぐに目に入ったのは黒板にある４つの謎。<br>
-                これらを解くことで、きっと次のステップに繋がるはずだ！</p>
+              <p class="text-center">職員室につくとパソコンに<br>
+                「職員室のどこかに鍵がある。それを探し出せ」<br>
+                と表示され鍵が入ってそうな箱はあっさり見つかるものの、箱が開かない<br>
+              「右の問題はREの部分を答えよ」<br>
+              と書かれていた</p>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
@@ -140,12 +154,12 @@ Youtube貼り付けここまで -->
                 </div><!-- /.column -->
                 <!-- STAGE2-1　ここまで -->
 
-<!-- STAGE2-2 を追加
+
 
                 <div class="column">
 
                   <figure class="image__container">
-                    <img src="assets/images/stage.png" alt="">
+                    <img src="assets/images/nazo3.png" alt="">
                   </figure>
 
                   <answer-input v-bind:correct="correctAnswer['stage2']['q2']" v-on:answer-input="answerInput($event, 'stage2', 2)"></answer-input>
@@ -153,7 +167,7 @@ Youtube貼り付けここまで -->
                 　
                 </div>
 
-2-2追加ここまで -->
+
                   
 <!-- STAGE2-3 を追加
 
@@ -181,8 +195,15 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：2　クリア！</div>
-              <div class="clear-message__content">黒板の指示に従い、<br>
-                次のステージの謎を解こう！</div>
+              <div class="clear-message__content">ようやく箱が開き鍵に<br>
+                「体育館の倉庫」<br>
+                と書かれてあり体育館の倉庫の行くことにした。<br>
+                もしかしたら倉庫に何か脱出につながる手がかりがあるのかもしれない。<br>
+                ...<br>
+                体育館倉庫に着いた。<br>
+                ピンポンパンポーン<br>
+                体育館倉庫で縄をゲットし屋上から脱出してください。体育館倉庫の問題は、間違えた場合爆発します！！」</p>
+                </div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -198,11 +219,11 @@ Youtube貼り付けここまで -->
         <section class="section">
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>家庭科室の課題とは</h2>
-            <p class="text-center">黒板から得たメッセージは、「食物の廃棄問題」だった。<br>
-              どうやら、廃棄にかかる費用がかかりすぎて小学校の運営が厳しくなったようだ。。<br>
+            <p class="text-center">体育館倉庫の扉に鍵がかかっていた<br>
+              どうやら謎を解かないと開かないようだ<br>
               これらを解決するための最後の謎を解いていこう！</p>
             <figure class="image__container">
-              <img src="assets/images/stage.png" alt="">
+              <img src="assets/images/nazo44.png" alt="">
             </figure>
           </div>
         </section>
@@ -281,5 +302,3 @@ STAGE3-3追加　ここまで -->
   </footer>
   <script src="https://unpkg.com/vue@next"></script>
   <script src="assets/js/main.js"></script>
-</body>
-</html>
